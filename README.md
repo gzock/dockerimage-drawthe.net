@@ -1,1 +1,1 @@
-# dockerimage-drawthe.net
+# dockerimage-drawthe.netBuild Docker Image for [drawthe.net](https://github.com/cidrblock/drawthe.net)# PrepareCloning drawthe.net .```$ bash ./prepare.sh```# Build Image```$ docker build -t drawthe.net:latest .```# Usage* require exposeexternal port* no cmd```$ docker run --rm -p 4200:80 --name drawthe.net -d drawthe.net:latest```
